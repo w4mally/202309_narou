@@ -13,7 +13,7 @@ const items = ref<Item[]>([
 ])
 
 const newItemName = ref('')
-const newItemPrice = ref('')
+const newItemPrice = ref(0)
 
 const addItem = () => {
     if( newItemName.value === '' || newItemPrice.value === 0) return
